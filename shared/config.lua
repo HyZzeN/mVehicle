@@ -6,7 +6,7 @@
 --- Config -----------------------------------------------------------
 Config       = {}
 --- Prints | Some extra dev tools
-Config.Debug = false
+Config.Debug = true
 
 
 --- Since many people have issues with vehicle properties,
@@ -36,8 +36,8 @@ Config.OpenPersonalMenu    = { 'keybind', 'F1' } -- 'radialmenu' | {'keybind', '
 
 --- Vehicle Density | 0.0 min | 1.0 max - Increases CPU script to 0.01 / 0.02
 Config.VehicleDensity      = {
-    CloseAllVehicles = true,
-    density = true,
+    CloseAllVehicles = false,
+    density = false,
     VehicleDensity = 0,
     RandomVehicleDensity = 0,
     ParkedVehicleDensity = 0
@@ -60,11 +60,11 @@ Config.TargetTrailer       = true
 
 ----------------------------------------------------------------------
 --- Carkeys
-Config.ItemKeys            = false    -- false = Vehicles DB
+Config.ItemKeys            = true    -- false = Vehicles DB
 
 Config.CarKeyItem          = 'carkey' -- item name
 
-Config.DoorKeyBind         = 'U'
+Config.DoorKeyBind         = 'J'
 
 Config.KeyDelay            = 500
 
@@ -72,7 +72,7 @@ Config.KeyDistance         = 5
 
 --- Engine ignition need keys or hotwire
 Config.VehicleEngine       = {
-    ToggleEngine = false,
+    ToggleEngine = true,
     KeyBind = 'M',
     keepEngineOnWhenLeave = false,
 }
