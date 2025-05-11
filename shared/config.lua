@@ -56,7 +56,7 @@ Config.Commands            = {
 }
 
 --- Manage tr2 trailer
-Config.TargetTrailer       = false
+Config.TargetTrailer       = true
 
 ----------------------------------------------------------------------
 --- Carkeys
