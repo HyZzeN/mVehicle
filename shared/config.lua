@@ -73,11 +73,14 @@ Config.ItemKeys            = true    -- false = Vehicles DB
 Config.CarKeyItem          = 'carkey' -- item name
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Config.DoorKeyBind         = 'L'
 =======
 Config.DoorKeyBind         = 'J'
 >>>>>>> f23605955f52ef574187a459f141a8d64c320ec1
 =======
+Config.DoorKeyBind         = 'J'
+>>>>>>> f23605955f52ef574187a459f141a8d64c320ec1
 
 Config.KeyDelay            = 500
 
