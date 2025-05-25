@@ -6,7 +6,7 @@
 --- Config -----------------------------------------------------------
 Config       = {}
 --- Prints | Some extra dev tools
-Config.Debug = false
+Config.Debug = true
 
 
 --- Since many people have issues with vehicle properties,
@@ -32,12 +32,16 @@ Config.EnableBikeHelmet    = true
 
 --- Personal Vehicle Menu
 Config.PersonalVehicleMenu = true
-Config.OpenPersonalMenu    = { 'keybind', 'F1' } -- 'radialmenu' | {'keybind', 'E'}
+Config.OpenPersonalMenu    = { 'keybind', 'E' } -- 'radialmenu' | {'keybind', 'E'}
 
 --- Vehicle Density | 0.0 min | 1.0 max - Increases CPU script to 0.01 / 0.02
 Config.VehicleDensity      = {
+<<<<<<< HEAD
     CloseAllVehicles = true,
-    density = true,
+=======
+    CloseAllVehicles = false,
+>>>>>>> f23605955f52ef574187a459f141a8d64c320ec1
+    density = false,
     VehicleDensity = 0,
     RandomVehicleDensity = 0,
     ParkedVehicleDensity = 0
@@ -56,15 +60,19 @@ Config.Commands            = {
 }
 
 --- Manage tr2 trailer
-Config.TargetTrailer       = false
+Config.TargetTrailer       = true
 
 ----------------------------------------------------------------------
 --- Carkeys
-Config.ItemKeys            = false    -- false = Vehicles DB
+Config.ItemKeys            = true    -- false = Vehicles DB
 
 Config.CarKeyItem          = 'carkey' -- item name
 
-Config.DoorKeyBind         = 'U'
+<<<<<<< HEAD
+Config.DoorKeyBind         = 'L'
+=======
+Config.DoorKeyBind         = 'J'
+>>>>>>> f23605955f52ef574187a459f141a8d64c320ec1
 
 Config.KeyDelay            = 500
 
@@ -72,8 +80,13 @@ Config.KeyDistance         = 5
 
 --- Engine ignition need keys or hotwire
 Config.VehicleEngine       = {
+<<<<<<< HEAD
     ToggleEngine = false,
+    KeyBind = 'G',
+=======
+    ToggleEngine = true,
     KeyBind = 'M',
+>>>>>>> f23605955f52ef574187a459f141a8d64c320ec1
     keepEngineOnWhenLeave = false,
 }
 ----------------------------------------------------------------------
