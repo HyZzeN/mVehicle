@@ -37,7 +37,11 @@ Config.OpenPersonalMenu    = { 'keybind', 'E' } -- 'radialmenu' | {'keybind', 'E
 --- Vehicle Density | 0.0 min | 1.0 max - Increases CPU script to 0.01 / 0.02
 Config.VehicleDensity      = {
 <<<<<<< HEAD
+<<<<<<< HEAD
     CloseAllVehicles = true,
+=======
+    CloseAllVehicles = false,
+>>>>>>> f23605955f52ef574187a459f141a8d64c320ec1
 =======
     CloseAllVehicles = false,
 >>>>>>> f23605955f52ef574187a459f141a8d64c320ec1
@@ -73,6 +77,7 @@ Config.DoorKeyBind         = 'L'
 =======
 Config.DoorKeyBind         = 'J'
 >>>>>>> f23605955f52ef574187a459f141a8d64c320ec1
+=======
 
 Config.KeyDelay            = 500
 
@@ -81,9 +86,12 @@ Config.KeyDistance         = 5
 --- Engine ignition need keys or hotwire
 Config.VehicleEngine       = {
 <<<<<<< HEAD
+<<<<<<< HEAD
     ToggleEngine = false,
     KeyBind = 'G',
 =======
+=======
+>>>>>>> f23605955f52ef574187a459f141a8d64c320ec1
     ToggleEngine = true,
     KeyBind = 'M',
 >>>>>>> f23605955f52ef574187a459f141a8d64c320ec1
