@@ -73,7 +73,7 @@ Config.KeyDistance         = 5
 --- Engine ignition need keys or hotwire
 Config.VehicleEngine       = {
     ToggleEngine = true,
-    KeyBind = 'M',
+    KeyBind = 'G',
     keepEngineOnWhenLeave = false,
 }
 ----------------------------------------------------------------------
